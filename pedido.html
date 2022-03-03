@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang "en">
+    <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Pedidos pasteles</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: rgba(201, 43, 193, 0.479);
+            }
+            h5{
+                text-align: center;
+            }
+                           
+             </style>
+                <div align="center"><img src="./assets img/Pasteleria.png"Pasteleria Nerak" width="120px" height="120px"> 
+          </div>
+        <h2>Pedido</h2>
+        <p>¿De que sabor(es) quieres tu pastel? Escoge máximo 2 opciones</p>
+        <form action="/accion.js" id="form1" method="post">
+        <input type="checkbox" name="chocolate" id="chocolate">
+        <label for="chocolate">Chocolate</label> 
+
+        <br>
+
+        <input type="checkbox" name="vainilla" id="vainilla">
+        <label for="vainilla">Vainilla</label>
+
+        <br>
+
+        <input type="checkbox" name="redVelvet" id="redVelvet">
+        <label for="redVelvet">Red velvet</label>
+
+        <br>
+        <input type="checkbox" name="queso" id="queso">
+        <label for="queso">Queso</label>
+        <br><br>
+        <p>Elige tu decoracion (Puedes escoger máximo 2 opciones)</p>
+
+        <input type="checkbox" name="fondant" id="fondant">
+        <label for="fondant">Fondant</label>   
+        <br>
+        <input type="checkbox" name="chispas" id="chispas">
+        <label for="chispas">Chispas de Chocolate</label>
+        <br>
+        <input type="checkbox" name="fresas" id="fresas">
+        <label for="fresas">Fresas</label>
+        <br>
+        <input type="checkbox" name="frutaMixta" id="frutaMixta">
+        <label for="frutaMixta">Fruta mixta</label>
+        <br><br>
+        <label for="Descripción">Descripción de tu pedido</label><br>
+        <textarea name=Descripción rows="10" cols="50"> </textarea>
+        <h3>Escribe tus datos para realizar tu pedido</h3>
+       
+
+        <label for="nombre">Escribe tu Nombre</label> <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre Apellido">
+
+        <br><br>
+
+        <label for="telefono">Escribe tu Teléfono</label> <br>
+        <input type="tel" id="telefono" name="telefono" placeholder="5555555555" maxlength="10"><br><br>
+    
+
+        <br><br>
+
+        <label for="correo">Escribe tu correo</label> <br>
+        <input type="text" name="correo" id="correo" placeholder="correo@correo.mx" > <br> <br>
+        <input type="submit" value="submit">
+        <input type="reset">
+        <br><br>
+        </form>
+
+        <h5>Av. Paseo de los Bosques, #56, Colonia Los Bosques, Teléfono: 5561626600, Horario de Atención de Lunes a Domingo
+            de 9:00 a 21:00 hrs. 
+        </h5>
+        
+        
+    </body>
+</html>
